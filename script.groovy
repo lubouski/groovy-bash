@@ -13,10 +13,10 @@
     //    }
   //  }
 //}
-def env = System.getenv()
-String version = env['foo']
+//def env = System.getenv()
+//String version = env['foo']
 
-//def version = System.getProperty('ver')
+def version = System.getProperty('ver')
 
 //BufferedReader br = new BufferedReader(new InputStreamReader(System.in))
 //print "Insert name from above list? "
