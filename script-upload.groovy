@@ -1,5 +1,7 @@
-def env = System.getenv()
-String version = env['bar']
+//def env = System.getenv()
+//String version = env['bar']
+
+def version = System.getProperty('ver')
 
     link = "http://192.168.56.4:8081/repository"
     repository = "java-releases"
